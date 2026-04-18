@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from "next/image";
 import { Shield, Phone, Mail, MapPin } from 'lucide-react'
 
 const quickLinks = [
@@ -28,13 +29,24 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link href="/" className="flex items-center space-x-2 group mb-4">
-              <Shield className="h-8 w-8 text-amber-500 group-hover:scale-110 transition-transform" />
+           <Link href="/" className="flex items-center space-x-2 group mb-4">
+  
+  {/* PNG Logo */}
+              <Image
+                // src="/logo.png"   // put your PNG inside /public folder
+                src="/logos/pisa_logo.png"
+                alt="Prabha Indira Logo"
+                width={45}
+                height={45}
+                className="object-contain transition-transform duration-300 group-hover:scale-110"
+              />
+
               <div>
                 <div className="hidden sm:block font-bold text-lg">
                   <span className="text-white">Prabha Indira Special Security Agency</span>
                   <span className="text-amber-500"> Pvt. Ltd.</span>
                 </div>
+
                 <div className="sm:hidden font-bold text-sm">
                   <span className="text-white">Prabha Indira Special</span>
                   <br />

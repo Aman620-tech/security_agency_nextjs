@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Shield, Phone } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import Cookies from 'js-cookie'
 
 const navigation = [
@@ -45,28 +46,36 @@ export default function Header() {
   }
   
   return (
-    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'backdrop-blur-md bg-slate-900/80 shadow-lg border-b border-amber-500/20' : 'bg-slate-950/90 backdrop-blur-sm'
-    }`}>
+    <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'backdrop-blur-md bg-slate-900/80 shadow-lg border-b border-amber-500/20'
+          : 'bg-slate-950/90 backdrop-blur-sm'
+      }`}
+    >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2 group">
-  <Shield className="h-10 w-10 text-amber-500 group-hover:scale-110 transition-transform flex-shrink-0" />
-  <div>
-    <div className="hidden sm:block font-bold text-xl">
-      <span className="text-white">Prabha Indira Special Security Agency</span>
-      <span className="text-amber-500"> Pvt. Ltd.</span>
-    </div>
-    <div className="sm:hidden font-bold text-sm md:text-base">
-      <span className="text-white">Prabha Indira Special</span>
-      <br />
-      <span className="text-amber-500 text-xs">Security Agency Pvt. Ltd.</span>
-    </div>
-    <div className="text-xs text-gray-400">Since 2009</div>
-  </div>
-</Link>
-          
+
+          {/* ✅ LOGO SECTION (UPDATED) */}
+          <Link href="/" className="flex items-center space-x-3 group">
+            <Image
+              src="/logos/pisa_logo.png"
+              alt="PISA Logo"
+              width={120}
+              height={120}
+              className="h-10 w-auto group-hover:scale-105 transition-transform flex-shrink-0"
+            />
+
+            <div>
+              <div className="hidden sm:block font-bold text-lg leading-tight">
+                <span className="text-white">Prabha Indira</span>
+                <span className="text-amber-500"> Security</span>
+              </div>
+
+              <div className="sm:hidden font-bold text-sm">
+                <span className="text-white">PISA</span>
+              </div>
+            <div className="text-xs text-gray-400">Since 2009</div>
+            </div>
+          </Link>
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (

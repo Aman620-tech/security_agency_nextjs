@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { Shield, Eye, EyeOff, LogIn } from 'lucide-react'
 import { toast } from 'sonner'
 import Cookies from 'js-cookie'
+import Image from "next/image";
 
 export default function LoginPage() {
   const [username, setUsername] = useState('')
@@ -40,11 +41,27 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 flex items-center justify-center p-4">
       <div className="max-w-md w-full">
-        <div className="text-center mb-8">
-          <div className="flex justify-center mb-4"><Shield className="h-16 w-16 text-amber-500" /></div>
-          <h1 className="text-2xl font-bold text-white">Prabha Indira Special Security Agency Private Limited </h1>
-          <p className="text-gray-400 mt-2">Login to your account</p>
+       <div className="text-center mb-8">
+  
+        {/* Logo */}
+        <div className="flex justify-center mb-4">
+          <Image
+            src="/logos/pisa_logo.png"
+            alt="Prabha Indira Logo"
+            width={64}
+            height={64}
+            className="object-contain"
+          />
         </div>
+
+        <h1 className="text-2xl font-bold text-white">
+          Prabha Indira Special Security Agency Private Limited
+        </h1>
+
+        <p className="text-gray-400 mt-2">
+          Login to your account
+        </p>
+      </div>
         <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-amber-500/20">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
