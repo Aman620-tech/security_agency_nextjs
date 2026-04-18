@@ -63,16 +63,17 @@ export default function Header() {
               className="h-10 w-auto group-hover:scale-105 transition-transform flex-shrink-0"
             />
 
-            <div>
-              <div className="hidden sm:block font-bold text-lg leading-tight">
-                <span className="text-white">Prabha Indira</span>
-                <span className="text-amber-500"> Security</span>
+             <div>
+              <div className="hidden sm:block font-bold text-xl">
+                <span className="text-white">Prabha Indira Special Security Agency</span>
+                <span className="text-amber-500"> Pvt. Ltd.</span>
               </div>
-
-              <div className="sm:hidden font-bold text-sm">
-                <span className="text-white">PISA</span>
+              <div className="sm:hidden font-bold text-sm md:text-base">
+                <span className="text-white">Prabha Indira Special</span>
+                <br />
+                <span className="text-amber-500 text-xs">Security Agency Pvt. Ltd.</span>
               </div>
-            <div className="text-xs text-gray-400">Since 2009</div>
+              <div className="text-xs text-gray-400">Since 2009</div>
             </div>
           </Link>
 
