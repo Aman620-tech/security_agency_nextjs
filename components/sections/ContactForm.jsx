@@ -274,7 +274,7 @@ export default function ContactForm() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-amber-500 mt-0.5" />
-                  <p className="text-gray-300 text-sm">123, Security House, MG Road, New Delhi - 110001</p>
+                  <p className="text-gray-300 text-sm">Jain Tower, Nehru Nagar Main Road, Nehru Nagar, Bhopal, Madhya Pradesh</p>
                 </div>
               </div>
 

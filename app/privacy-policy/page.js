@@ -195,7 +195,7 @@ export default function PrivacyPolicyPage() {
                     <div className="flex items-start gap-3">
                       <MapPin className="h-5 w-5 text-amber-500 mt-0.5" />
                       <span className="text-gray-300">
-                        123, Security House, MG Road, New Delhi - 110001, India
+                        Jain Tower, Nehru Nagar Main Road, Nehru Nagar, Bhopal, Madhya Pradesh, India
                       </span>
                     </div>
                   </div>
