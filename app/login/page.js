@@ -33,7 +33,8 @@ export default function LoginPage() {
       toast.success('Login successful!')
       router.push(from)
     } else {
-      toast.error('Invalid credentials. Use admin / admin123')
+      // toast.error('Invalid credentials. Use admin / admin123')
+      toast.error('Invalid credentials.')
     }
     setIsLoading(false)
   }
