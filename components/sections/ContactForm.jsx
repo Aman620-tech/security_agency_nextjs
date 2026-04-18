@@ -264,19 +264,22 @@ export default function ContactForm() {
                 <span>Connect on WhatsApp</span>
               </button>
 
-              <div className="bg-slate-800/50 rounded-xl p-6 border border-amber-500/20">
-                <div className="flex items-start space-x-3 mb-4">
-                  <Mail className="h-5 w-5 text-amber-500 mt-0.5" />
-                  <div>
-                    <p className="text-gray-300 text-sm">prabhaindira247@gmail.com</p>
-                    <p className="text-gray-400 text-xs">support@prabhaindirasecurity.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <MapPin className="h-5 w-5 text-amber-500 mt-0.5" />
-                  <p className="text-gray-300 text-sm">Jain Tower, Nehru Nagar Main Road, Nehru Nagar, Bhopal, Madhya Pradesh</p>
-                </div>
-              </div>
+             <div className="bg-slate-800/50 rounded-xl p-6 border border-amber-500/20">
+  <div className="flex items-start space-x-3 mb-4">
+    <Mail className="h-5 w-5 text-amber-500 mt-0.5 shrink-0" />
+    <div>
+      <p className="text-gray-300 text-sm">prabhaindira247@gmail.com</p>
+      {/* <p className="text-gray-400 text-xs">prabhaindira247@gmail.com</p> */}
+    </div>
+  </div>
+
+  <div className="flex items-start space-x-3">
+    <MapPin className="h-6 w-6 text-amber-500 shrink-0 mt-1" />
+    <p className="text-gray-300 text-sm leading-relaxed">
+      Jain Tower, Nehru Nagar Main Road, Nehru Nagar, Bhopal, Madhya Pradesh
+    </p>
+  </div>
+</div> 
 
               <div className="bg-slate-800/50 rounded-xl p-4 border border-amber-500/20">
                 <div className="flex items-center justify-between text-sm">

@@ -80,13 +80,14 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-amber-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 text-sm">
-                  123, Security House, MG Road,<br />
-                  New Delhi - 110001, India
-                </span>
-              </li>
+            <li className="flex items-start space-x-3">
+              <MapPin className="h-5 w-5 text-amber-500 flex-shrink-0 mt-0.5" />
+              <span className="text-gray-300 text-sm">
+                Jain Tower, Nehru Nagar Main Road,<br />
+                Nehru Nagar, Bhopal,<br />
+                Madhya Pradesh, India
+              </span>
+            </li>
               {/* <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-amber-500 flex-shrink-0" />
                 <a href="tel:+919876543210" className="text-gray-300 hover:text-amber-500 transition-colors text-sm">

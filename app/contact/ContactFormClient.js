@@ -146,12 +146,13 @@ export default function ContactFormClient() {
                 <p className="text-amber-500 text-sm mt-2">We respond within 2 hours</p>
               </div>
 
-              <div className="bg-slate-800 p-6 rounded-xl border border-amber-500/10">
-                <MapPin className="h-8 w-8 text-amber-500 mb-3" />
-                <h3 className="text-lg font-semibold text-white mb-2">Visit Us</h3>
-                <p className="text-gray-300">123, Security House, MG Road</p>
-                <p className="text-gray-300">New Delhi - 110001, India</p>
-              </div>
+             <div className="bg-slate-800 p-6 rounded-xl border border-amber-500/10">
+              <MapPin className="h-8 w-8 text-amber-500 mb-3" />
+              <h3 className="text-lg font-semibold text-white mb-2">Visit Us</h3>
+              <p className="text-gray-300">Jain Tower</p>
+              <p className="text-gray-300">Nehru Nagar Main Road, Nehru Nagar</p>
+              <p className="text-gray-300">Bhopal, Madhya Pradesh, India</p>
+            </div>
 
               <div className="bg-slate-800 p-6 rounded-xl border border-amber-500/10">
                 <Clock className="h-8 w-8 text-amber-500 mb-3" />
