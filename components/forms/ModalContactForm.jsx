@@ -66,11 +66,11 @@ export default function ModalContactForm({ isOpen, onClose }) {
                 <span>+91 98765 43210</span>
               </a> */}
               <a
-                href="mailto:info@prabhaindirasecurity.com"
+                href="mailto:prabhaindira247@gmail.com"
                 className="flex items-center justify-center space-x-2 text-charcoal-300 hover:text-gold-500 transition-colors"
               >
                 <Mail className="h-4 w-4" />
-                <span>info@prabhaindirasecurity.com</span>
+                <span>prabhaindira247@gmail.com</span>
               </a>
             </div>
           </div>

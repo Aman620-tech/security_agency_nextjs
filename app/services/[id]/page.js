@@ -267,7 +267,7 @@ export default function ServiceDetailPage() {
             <div>
               <Mail className="h-8 w-8 text-amber-500 mx-auto mb-3" />
               <h3 className="text-white font-semibold mb-2">Email Us</h3>
-              <p className="text-gray-400">info@prabhaindirasecurity.com</p>
+              <p className="text-gray-400">prabhaindira247@gmail.com</p>
               <p className="text-gray-400 text-sm">We respond within 2 hours</p>
             </div>
             <div>

@@ -108,7 +108,7 @@ export default function TermsOfServicePage() {
                     </div> */}
                     <div className="flex items-center gap-3">
                       <Mail className="h-5 w-5 text-amber-500" />
-                      <a href="mailto:info@prabhaindirasecurity.com" className="text-gray-300 hover:text-amber-500">info@prabhaindirasecurity.com</a>
+                      <a href="mailto:prabhaindira247@gmail.com" className="text-gray-300 hover:text-amber-500">prabhaindira247@gmail.com</a>
                     </div>
                     <div className="flex items-start gap-3">
                       <MapPin className="h-5 w-5 text-amber-500 mt-0.5" />

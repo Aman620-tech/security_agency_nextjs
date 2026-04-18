@@ -268,7 +268,7 @@ export default function ContactForm() {
                 <div className="flex items-start space-x-3 mb-4">
                   <Mail className="h-5 w-5 text-amber-500 mt-0.5" />
                   <div>
-                    <p className="text-gray-300 text-sm">info@prabhaindirasecurity.com</p>
+                    <p className="text-gray-300 text-sm">prabhaindira247@gmail.com</p>
                     <p className="text-gray-400 text-xs">support@prabhaindirasecurity.com</p>
                   </div>
                 </div>

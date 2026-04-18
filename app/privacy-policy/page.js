@@ -188,8 +188,8 @@ export default function PrivacyPolicyPage() {
                     </div> */}
                     <div className="flex items-center gap-3">
                       <Mail className="h-5 w-5 text-amber-500" />
-                      <a href="mailto:info@prabhaindirasecurity.com" className="text-gray-300 hover:text-amber-500 transition-colors">
-                        info@prabhaindirasecurity.com
+                      <a href="mailto:prabhaindira247@gmail.com" className="text-gray-300 hover:text-amber-500 transition-colors">
+                        prabhaindira247@gmail.com
                       </a>
                     </div>
                     <div className="flex items-start gap-3">
