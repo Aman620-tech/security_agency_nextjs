@@ -247,9 +247,9 @@ export default function ServiceDetailPage() {
             <Link href="/contact" className="bg-amber-500 hover:bg-amber-600 text-slate-950 font-semibold px-8 py-3 rounded-lg transition-all">
               Request a Free Security Assessment
             </Link>
-            <a href="tel:+919876543210" className="border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-950 font-semibold px-8 py-3 rounded-lg transition-all">
+            {/* <a href="tel:+919876543210" className="border-2 border-amber-500 text-amber-500 hover:bg-amber-500 hover:text-slate-950 font-semibold px-8 py-3 rounded-lg transition-all">
               Call Now: +91 98765 43210
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

@@ -80,7 +80,7 @@ export default function ContactForm() {
 
   const handleWhatsApp = () => {
     const message = `Hello Prabha Indira Special Security Agency Private Limited ,%0A%0AI'm interested in getting a free security consultation for:%0A- Service Type: [Select Service]%0A- Location: [City Name]%0A- Number of Guards Required: [Number]%0A%0APlease contact me back.`
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank')
+    window.open(`https://wa.me/919993935261?text=${message}`, '_blank')
   }
 
   return (
@@ -128,7 +128,7 @@ export default function ContactForm() {
                         value={formData.mobileNumber}
                         onChange={handleChange}
                         className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:border-amber-500 focus:outline-none"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 XXXXXXX"
                       />
                     </div>
                   </div>

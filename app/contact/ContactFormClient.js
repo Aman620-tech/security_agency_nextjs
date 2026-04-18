@@ -98,7 +98,7 @@ export default function ContactFormClient() {
 
   const handleWhatsApp = () => {
     const message = `Hello Prabha Indira Security,%0A%0AI'm interested in a free security consultation.%0A%0AName: ${formData.name || 'Guest'}%0APlease contact me back.`
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank')
+    window.open(`https://wa.me/919425678283?text=${message}`, '_blank')
   }
 
   const serviceOptions = [
