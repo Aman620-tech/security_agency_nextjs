@@ -80,7 +80,7 @@ export default function TrustSignals() {
         {/* PSARA License Display */}
         <div className="mt-12 text-center p-4 bg-amber-500/10 rounded-lg border border-amber-500/20">
           <p className="text-gray-300 text-sm">
-            <span className="text-amber-500 font-semibold">PSARA License No.:</span> [Insert License Number] | 
+            <span className="text-amber-500 font-semibold">PSARA License No.:</span> <strong>PSA/L/50/MP/2022/SEP/3/255</strong> | 
             <span className="text-amber-500 font-semibold ml-2">ISO 9001:2015 Certified</span> | 
             <span className="text-amber-500 font-semibold ml-2">NSDC Partner</span>
           </p>

@@ -119,7 +119,7 @@ export default function Footer() {
         {/* PSARA License Info */}
         <div className="mt-8 pt-6 border-t border-amber-500/10 text-center">
           <p className="text-gray-400 text-xs">
-            <span className="text-amber-500">PSARA License No.:</span> [Insert License Number] | 
+            <span className="text-amber-500">PSARA License No.:</span> <strong>PSA/L/50/MP/2022/SEP/3/255</strong> | 
             <span className="text-amber-500 ml-2">ISO 9001:2015 Certified</span> | 
             <span className="text-amber-500 ml-2">NSDC Partner</span>
           </p>
